@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url(../img/bg.png);
+}
+
+#container{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    min-width: 930px;
+}
+
+.clear{
+    clear: both;
+}
+
+p, a, li{
+    font-size: 1.6rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+/* MARCADOR */
+
+#container nav.menu-header .home a{
+    background-color: #FFF;
+}
+
+/* HEADER */
+
+.fundo-esquerda{
+    background: url(../img/topo-imagem-principal.png) no-repeat left top;
+    height: 25rem;
+    width: 100%;
+}
+
+.fundo-direito{
+    background: url(../img/topo-imagem-lateral.png) no-repeat right top;
+    width: 100%;
+    height: 25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header{
+    position: relative;
+}
+
+header div.logo{
+    float: left;
+    margin: 1.5rem;
+}
+
+header div.area-direita{
+    float: right;
+}
+
+header div.reservar{
+    border-top: 1px solid #847b3c;
+    border-bottom: 1px solid #847b3c;
+    margin: 1.5rem 1.5rem 0 0;
+    padding: .5rem 0;
+}
+
+header div.reservar li{
+    float: left;
+    margin-top: .3rem;
+    color: #847b3c;
+}
+
+header div.reservar button{
+    background: none;
+    border: none;
+}
+
+header div.reservar a{
+    padding: .5rem 1rem;
+    margin-left: 5rem;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #847b3c;
+}
+
+header nav.menu-header{
+    float: left;
+}
+
+header nav.menu-header a{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: .7rem 0;
+    padding: 0 1rem;
+    color: #68602b;
+}
+
+header nav.menu-header a:hover{
+    background-color: #FFF;
+}
+
+header div.depoimento{
+    margin: 1.5rem 0 0 3.5rem;
+    float: left;
+}
+
+/* AREA-CONTEUDO */
+
+section{
+    background: url(../img/bg-container.png) repeat-y top center;
+    width: 100%;
+}
+
+.conteudo-principal{
+    background: url(../img/bg-area-principal.png) repeat-x left top;
+    float: left;
+    width: 50%;
+    padding: 3rem 0;
+}
+
+.conteudo-secundario{
+    background: url(../img/bg-area-lateral.png) repeat-x left top;
+    float: right;
+    width: 50%;
+    padding: 3rem 0;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.conteudo h3{
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #68602b;
+}
+
+.conteudo p{
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.conteudo .conteudo-div:not(.no-border){
+    border-bottom: 1px solid #fbf5bf;
+    padding: 1.54rem 1.54rem 1.54rem 0;
+}
+
+.conteudo .no-border{
+    padding-top: 1.54rem;
+}
+
+.conteudo .conteudo-img img{
+    float: left;
+    padding-right: 1.5rem;
+}
+
+
+footer.rodape{
+    margin-top: .8rem;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #d9d7b6;
+}
